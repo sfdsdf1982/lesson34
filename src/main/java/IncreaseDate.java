@@ -6,7 +6,7 @@ public class IncreaseDate {
         Date date = new Date();
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
-        calendar.add(Calendar.DATE,3);
+        calendar.add(Calendar.DATE,5);
         date = calendar.getTime();
         System.out.println(date);
     }
